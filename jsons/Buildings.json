@@ -1,25 +1,69 @@
 [
+
+	//TEST ONLY
+	
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
+	    "name": "Enable Cheats",
+		
+		"uniqueTo": "The City",
+		"uniques": ["[+100]% [Production]",
+					"[+100]% [Food]",
+					"[+100]% [Gold]",
+					"[+100]% [Science]",
+					"[+100]% [Culture]",
+					"[+100]% [Happiness]",
+					"[+100]% [Faith]"],
+		
+		"cost": 1,
+		"hurryCostModifier": 1,
+
+		"cityStrength": 999,
+		"cityHealth": 999,
+		
+		"production": 999,
+		"food": 999,
+		"gold": 999,
+		"science": 999,
+		"culture": 999,
+		"happiness": 999,
+		"faith": 999,
+
+	},
+
+	//City Ecology
+	
+	{
+		"name": "CITY: Foundations",
+		
+		"uniqueTo": "The City",
+		"uniques": ["Automatically built in all cities where it is buildable",
+					"Destroyed when the city is captured",
+		
+					"Costs [5] [Happiness]",
+					"Unsellable",
+					"Comment [The foundation of the Control. Institution. Taboo. Yield. project, providing 1pt of Science, & 5pts of Culture at the expense of 5pts of Happiness. Due to this, when the city is captured it will be destroyed. Established permanently after a city's construction.]"],
+		
+		"cost": 1,
+		"hurryCostModifier": 1,
+
+		"science": 1,
+		"culture": 5,
 	},
 	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
+		"name": "City Ecology Cultivation: Foundations",
+		
+		"uniqueTo": "The City",
+		"uniques": ["Automatically built in all cities where it is buildable",
+					"Doubles Gold given to enemy if city is captured",
+					"Destroyed when the city is captured",
+		
+					"Costs [5] [Happiness]",
+					"Unsellable"],
+		
+		"cost": 1,
+		"hurryCostModifier": 1,
+
+		"science": 1,
+		"culture": 5,
 	}
 ]
