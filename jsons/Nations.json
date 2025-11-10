@@ -1,38 +1,38 @@
 [
 	{
-		"name": "Aliens",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
-		"startBias": ["Snow"],
-		"preferredVictoryType": "Scientific",
+		"name": "The City",
+		"leaderName": "The Head",
+		"adjective": ["Human"],
+		"startBias": ["River","Atoll","Coast","Lakes","Ocean","Forest","Avoid [Tundra]","Avoid [Snow]","Avoid [Ice]","Avoid [Mountain]","Avoid [Desert]"],
+		"preferredVictoryType": "Domination",
+		"outerColor": [0,0,0],
+		"innerColor": [255,230,64],
 		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
+		"startIntroPart1": "To know and manipulate all the secrets of the world; that is the privilege of the Head, Eye, and Claw. It is their honor and absolute power. No one dares to stand against them. As long as they exist, the tale of the Nest will never reach its close.",
+		"startIntroPart2": "This mod was brought to you by an avid Project Moon fan - Alkalyaninth Zynth Syliantide",
 		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
+		"declaringWar": "Your nation has already become a threat of the City. We could not stand by any longer",
+		"attacked": "This is an ordeal to overcome, for you and for us.",
+		"defeated": "...",
+		"introduction": "You bear a poison, heavy and slow... yet deadly. I know you well, even though you know nothing about me.",
 		
-		"neutralHello": "How are you doing?",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+		"neutralHello": "What brings you here..?",
+		"neutralLetsHearIt": "This sounds promising...",
+		"neutralNo": "Our apologies, but this arrangement is not sufficient for fulfilling our needs...",
+		"neutralYes": "Very well...",
 
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		"hateHello": "...",
+		"hateLetsHearIt": "You may speak...",
+		"hateNo": "We have decided to not proceed with your arrangment, for it is not faavorable...",
+		"hateYes": "For now, we shall kindly accept your request...",
 		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
+		"afterPeace": "I only ask that you do not wage war on us again. The City lacks time for international wars...",
+		"tradeRequest": "This arrangement may indeed benefit us.",
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
+		"uniqueName": "Enchanted Forest",
+		"uniques": ["Enemy [All] units must spend [999] extra movement points when inside your territory",
+		
+		"cities": ["Forest A","Forest B","Forest C","Forest D","Forest E","Forest F","Forest G","Forest H","Forest I","Forest J","Forest K","Forest L","Forest M","Forest N","Forest O","Forest P","Forest Q","Forest R","Forest S","Forest T","Forest U","Forest V","Forest W","Forest X","Forest Y","Forest Z"],
+
 	}
 ]
