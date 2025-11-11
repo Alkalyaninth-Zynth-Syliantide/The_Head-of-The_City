@@ -48,9 +48,8 @@
 					"[+100]% [Science] [Capital]",
 					"[+100]% [Culture] [Capital]",
 					"[+100]% [Happiness] [Capital]",
-					"[+100]% [Faith] [Capital] <when religion is enabled>",
+					"[+100]% [Faith] [Capital] <when religion is enabled>"],
 		
-		"cities": ["Forest A","Forest B","Forest C","Forest D","Forest E","Forest F","Forest G","Forest H","Forest I","Forest J","Forest K","Forest L","Forest M","Forest N","Forest O","Forest P","Forest Q","Forest R","Forest S","Forest T","Forest U","Forest V","Forest W","Forest X","Forest Y","Forest Z"],
-
+		"cities": ["City"],
 	}
 ]
