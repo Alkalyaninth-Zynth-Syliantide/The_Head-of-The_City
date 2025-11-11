@@ -1,9 +1,9 @@
 [
 	{
-		"name": "Threat Manager",
+		"name": "Office Manager",
 		"uniqueTo": "The City",
 		
-		"unitType": "Manager",
+		"unitType": "Office Manager",
 		"replaces": "Warrior",
 		
 		"cost": 100,
