@@ -31,15 +31,18 @@
 	},
 
 	//City Ecology
-	
+
 	{
-		"name": "CITY: Foundations",
+		"name": "CITY-I: Myth",
 		
 		"uniqueTo": "The City",
-		"uniques": ["Automatically built in all cities where it is buildable",
+		"uniques": ["[+1]% Culture cost of natural border growth [Capital]",
+					"[1] Unit Supply per [6] population [in this city]",
+				
+					"Automatically built in all cities where it is buildable",
 					"Destroyed when the city is captured",
-		
 					"Costs [5] [Happiness]",
+			
 					"Unsellable",
 					"Comment [The foundation of the Control. Institution. Taboo. Yield. project, providing 1pt of Science, & 5pts of Culture at the expense of 5pts of Happiness. Due to this, when the city is captured it will be destroyed. Established permanently after a city's construction.]"],
 		
@@ -47,23 +50,104 @@
 		"hurryCostModifier": 1,
 
 		"science": 1,
+		"culture": 1,
+	},
+	{
+		"name": "CITY-II: Legend",
+		"requiredBuilding": "CITY-I: Myth",
+		
+		"uniqueTo": "The City",
+		"uniques": ["[+1]% [Culture] [in this city]",
+					"[10]% Food is carried over after population increases [in this city]",
+					"[-5]% Culture cost of adopting new Policies",
+					"[+5]% Great Person generation [in this city]",
+					"[1] Unit Supply per [6] population [in this city]",
+			
+					"Destroyed when the city is captured",
+					"Costs [4] [Happiness]",
+			
+					"Unsellable"],
+		
+		"cost": 100,
+		"hurryCostModifier": 300,
+		
+		"culture": 2,
+	},
+	{
+		"name": "CITY-III: Plague",
+		"requiredBuilding": "CITY-II: Legend",
+		
+		"uniqueTo": "The City",
+		"uniques": ["[+1]% [Food] [in this city]",
+					"[+15]% growth [in this city]",
+					"[1] Unit Supply per [6] population [in this city]",
+			
+					"Destroyed when the city is captured",		
+					"Costs [3] [Happiness]",
+			
+					"Unsellable"],
+		
+		"cost": 125,
+		"hurryCostModifier": 375,
+		
+		"food": 2,
+		"culture": 3,
+	},
+	{
+		"name": "CITY-IV: Nightmare",
+		"requiredBuilding": "CITY-III: Plague",
+		
+		"uniqueTo": "The City",
+		"uniques": ["[+1]% [Science] [in this city]",
+					"[1] Unit Supply per [6] population [in this city]",
+			
+					"Destroyed when the city is captured",		
+					"Costs [2] [Happiness]",
+			
+					"Unsellable"],
+		
+		"cost": 150,
+		"hurryCostModifier": 450,
+		
+		"science": 2,
+		"culture": 4,
+	},
+	{
+		"name": "CITY-V: Star",
+		"requiredBuilding": "CITY-IV: Nightmare",
+		
+		"uniqueTo": "The City",
+		"uniques": ["[+1]% [Gold] [in this city]",
+					"[1] Unit Supply per [6] population [in this city]",
+					"[-50]% enemy spy effectiveness [Capital]",
+			
+					"Destroyed when the city is captured",		
+					"Costs [1] [Happiness]",
+			
+					"Unsellable"],
+		
+		"cost": 175,
+		"hurryCostModifier": 525,
+		
+		"gold": 2,
 		"culture": 5,
 	},
 	{
-		"name": "City Ecology Cultivation: Foundations",
+		"name": "CITY-VI: Impurity",
+		"requiredBuilding": "CITY-V: Star",
 		
 		"uniqueTo": "The City",
-		"uniques": ["Automatically built in all cities where it is buildable",
-					"Doubles Gold given to enemy if city is captured",
+		"uniques": ["[+1]% [Gold] [in this city]",
+					"[1] Unit Supply per [6] population [in this city]",
+					"[-25]% enemy spy effectiveness [Capital]",
+			
 					"Destroyed when the city is captured",
-		
-					"Costs [5] [Happiness]",
+			
 					"Unsellable"],
 		
-		"cost": 1,
-		"hurryCostModifier": 1,
-
-		"science": 1,
-		"culture": 5,
+		"cost": 200,
+		"hurryCostModifier": 600,
+	
+		"culture": 6,
 	}
 ]
