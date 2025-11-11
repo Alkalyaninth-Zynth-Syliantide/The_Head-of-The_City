@@ -9,14 +9,14 @@
 					"Uncapturable",
 			
 					"[+5]% production cost <starting from the [Ancient era]>",
-					"[+5]% production cost <starting from the [Classical era]>",
-					"[+5]% production cost <starting from the [Medieval era]>",
-					"[+5]% production cost <starting from the [Renaissance era]>",
-					"[+5]% production cost <starting from the [Industrial era]>",
-					"[+6]% production cost <starting from the [Modern era]>",
-					"[+6]% production cost <starting from the [Atomic era]>",
-					"[+6]% production cost <starting from the [Information era]>",
-					"[+7]% production cost <starting from the [Future era]>"]
+					"[+6]% production cost <starting from the [Classical era]>",
+					"[+8]% production cost <starting from the [Medieval era]>",
+					"[+11]% production cost <starting from the [Renaissance era]>",
+					"[+15]% production cost <starting from the [Industrial era]>",
+					"[+20]% production cost <starting from the [Modern era]>",
+					"[+26]% production cost <starting from the [Atomic era]>",
+					"[+33]% production cost <starting from the [Information era]>",
+					"[+41]% production cost <starting from the [Future era]>"]
 	},
 	{
 		"name": "Association Director",
@@ -25,14 +25,14 @@
 					"Uncapturable",
 			
 					"[+6]% production cost <starting from the [Ancient era]>",
-					"[+6]% production cost <starting from the [Classical era]>",
-					"[+6]% production cost <starting from the [Medieval era]>",
-					"[+6]% production cost <starting from the [Renaissance era]>",
-					"[+6]% production cost <starting from the [Industrial era]>",
-					"[+7]% production cost <starting from the [Modern era]>",
-					"[+7]% production cost <starting from the [Atomic era]>",
-					"[+7]% production cost <starting from the [Information era]>",
-					"[+9]% production cost <starting from the [Future era]>"]
+					"[+8]% production cost <starting from the [Classical era]>",
+					"[+12]% production cost <starting from the [Medieval era]>",
+					"[+18]% production cost <starting from the [Renaissance era]>",
+					"[+26]% production cost <starting from the [Industrial era]>",
+					"[+36]% production cost <starting from the [Modern era]>",
+					"[+48]% production cost <starting from the [Atomic era]>",
+					"[+62]% production cost <starting from the [Information era]>",
+					"[+78]% production cost <starting from the [Future era]>"]
 	},
 
 	//Units
