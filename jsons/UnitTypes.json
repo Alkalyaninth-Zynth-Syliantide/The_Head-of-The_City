@@ -1,6 +1,9 @@
 [
+
+	//Managers & Directors
+	
 	{
-		"name": "Manager",
+		"name": "Office Manager",
 		"movementType": "Land",
 		"uniques": ["Can carry [5] [Fixer] units",
 					"Uncapturable",
@@ -14,5 +17,34 @@
 					"[+6]% production cost <starting from the [Atomic era]>",
 					"[+6]% production cost <starting from the [Information era]>",
 					"[+7]% production cost <starting from the [Future era]>"]
+	},
+	{
+		"name": "Association Director",
+		"movementType": "Land",
+		"uniques": ["Can carry [5] [Association Fixer] units",
+					"Uncapturable",
+			
+					"[+6]% production cost <starting from the [Ancient era]>",
+					"[+6]% production cost <starting from the [Classical era]>",
+					"[+6]% production cost <starting from the [Medieval era]>",
+					"[+6]% production cost <starting from the [Renaissance era]>",
+					"[+6]% production cost <starting from the [Industrial era]>",
+					"[+7]% production cost <starting from the [Modern era]>",
+					"[+7]% production cost <starting from the [Atomic era]>",
+					"[+7]% production cost <starting from the [Information era]>",
+					"[+9]% production cost <starting from the [Future era]>"]
+	},
+
+	//Units
+	
+	{
+		"name": "Fixer",
+		"movementType": "Air"
+		"uniques": ["Uncapturable"]
+	},
+	{
+		"name": "Association Fixer",
+		"movementType": "Air",
+		"uniques": ["Uncapturable"]
 	}
 ]
