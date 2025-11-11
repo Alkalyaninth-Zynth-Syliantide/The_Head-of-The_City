@@ -41,7 +41,6 @@
 				
 					"Automatically built in all cities where it is buildable",
 					"Destroyed when the city is captured",
-					"Costs [5] [Happiness]",
 			
 					"Unsellable",
 					"Comment [The foundation of the Control. Institution. Taboo. Yield. project, providing 1pt of Science, & 5pts of Culture at the expense of 5pts of Happiness. Due to this, when the city is captured it will be destroyed. Established permanently after a city's construction.]"],
@@ -64,7 +63,6 @@
 					"[1] Unit Supply per [6] population [in this city]",
 			
 					"Destroyed when the city is captured",
-					"Costs [4] [Happiness]",
 			
 					"Unsellable"],
 		
@@ -83,7 +81,6 @@
 					"[1] Unit Supply per [6] population [in this city]",
 			
 					"Destroyed when the city is captured",		
-					"Costs [3] [Happiness]",
 			
 					"Unsellable"],
 		
@@ -102,7 +99,6 @@
 					"[1] Unit Supply per [6] population [in this city]",
 			
 					"Destroyed when the city is captured",		
-					"Costs [2] [Happiness]",
 			
 					"Unsellable"],
 		
@@ -122,7 +118,6 @@
 					"[-50]% enemy spy effectiveness [Capital]",
 			
 					"Destroyed when the city is captured",		
-					"Costs [1] [Happiness]",
 			
 					"Unsellable"],
 		
