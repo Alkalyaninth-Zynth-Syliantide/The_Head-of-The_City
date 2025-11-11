@@ -29,10 +29,27 @@
 		"afterPeace": "I only ask that you do not wage war on us again. The City lacks time for international wars...",
 		"tradeRequest": "This arrangement may indeed benefit us.",
 
-		"uniqueName": "Enchanted Forest",
+		"uniqueName": "Oppressive Atmosphere",
 		"uniques": ["Enemy [All] units must spend [999] extra movement points when inside your territory",
+					"[+100]% unhappiness from the number of cities",
+			
+					"[-100]% [Production] non-[Razing]",
+					"[-100]% [Food] non-[Razing]",
+					"[-100]% [Gold] non-[Razing]",
+					"[-100]% [Science] non-[Razing]",
+					"[-100]% [Culture] non-[Razing]",
+					"[-100]% [Happiness] non-[Razing]",
+					"[-100]% [Faith] non-[Razing]",
+			
+					"[+100]% [Production] [Capital]",
+					"[+100]% [Food] [Capital]",
+					"[+100]% [Gold] [Capital]",
+					"[+100]% [Science] [Capital]",
+					"[+100]% [Culture] [Capital]",
+					"[+100]% [Happiness] [Capital]",
+					"[+100]% [Faith] [Capital]",
 		
-		"cities": ["Forest A","Forest B","Forest C","Forest D","Forest E","Forest F","Forest G","Forest H","Forest I","Forest J","Forest K","Forest L","Forest M","Forest N","Forest O","Forest P","Forest Q","Forest R","Forest S","Forest T","Forest U","Forest V","Forest W","Forest X","Forest Y","Forest Z"],
+		"cities": ["The City"],
 
 	}
 ]
