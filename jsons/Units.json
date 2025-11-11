@@ -1,5 +1,17 @@
 [
 	{
+		"name": "Threat Manager",
+		"uniqueTo": "The City",
 		
+		"unitType": "Manager",
+		"replaces": "Warrior",
+		
+		"cost": 100,
+		
+		"movement": 1,
+		"strength": 0,
+		"range": 1,
+		
+		"uniques": ["Limited to [5] per Civilization"],
 	}
 ]
