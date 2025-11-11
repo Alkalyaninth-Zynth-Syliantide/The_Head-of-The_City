@@ -40,7 +40,7 @@
 					"[-100]% [Science] non-[Razing]",
 					"[-100]% [Culture] non-[Razing]",
 					"[-100]% [Happiness] non-[Razing]",
-					"[-100]% [Faith] non-[Razing]",
+					"[-100]% [Faith] non-[Razing] <when religion is enabled>",
 			
 					"[+100]% [Production] [Capital]",
 					"[+100]% [Food] [Capital]",
@@ -48,9 +48,9 @@
 					"[+100]% [Science] [Capital]",
 					"[+100]% [Culture] [Capital]",
 					"[+100]% [Happiness] [Capital]",
-					"[+100]% [Faith] [Capital]",
+					"[+100]% [Faith] [Capital] <when religion is enabled>",
 		
-		"cities": ["The City"],
+		"cities": ["CITY"],
 
 	}
 ]
