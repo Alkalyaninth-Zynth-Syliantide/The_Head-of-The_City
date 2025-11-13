@@ -5,7 +5,7 @@
 	{
 		"name": "Office Manager",
 		"movementType": "Land",
-		"uniques": ["Can carry [5] [Fixer] units",
+		"uniques": ["Can carry [5] [Office Fixer] units",
 					"Uncapturable",
 			
 					"[+5]% production cost <starting from the [Ancient era]>",
@@ -38,7 +38,7 @@
 	//Units
 	
 	{
-		"name": "Fixer",
+		"name": "Office Fixer",
 		"movementType": "Air"
 		"uniques": ["Uncapturable"]
 	},
