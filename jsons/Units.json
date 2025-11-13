@@ -1,10 +1,13 @@
 [
+
+	//Leaders
+	
 	{
 		"name": "Office Manager",
 		"uniqueTo": "The City",
 		
 		"unitType": "Office Manager",
-		"replaces": "Warrior",
+		"replaces": "Rifleman",
 		
 		"cost": 100,
 		
@@ -13,5 +16,48 @@
 		"range": 1,
 		
 		"uniques": ["Limited to [5] per Civilization"],
+	},
+	{
+		"name": "Association Director",
+		"uniqueTo": "The City",
+		
+		"unitType": "Association Director",
+		"replaces": "Infantry",
+		
+		"cost": 100,
+		
+		"movement": 1,
+		"strength": 0,
+		"range": 1,
+		
+		"uniques": ["Limited to [4] per Civilization"],
+	},
+
+	//Fixers
+
+	{
+		"name": "Office Fixer",
+		"uniqueTo": "The City",
+		
+		"unitType": "Office Fixer",
+		
+		"cost": 30,
+		
+		"movement": 1,
+		"strength": 1,
+		"range": 1,
+	},
+	{
+		"name": "Association Fixer",
+		"uniqueTo": "The City",
+		
+		"unitType": "Association Fixer",
+		
+		"cost": 50,
+		
+		"movement": 1,
+		"strength": 1,
+		"range": 1,
 	}
+
 ]
