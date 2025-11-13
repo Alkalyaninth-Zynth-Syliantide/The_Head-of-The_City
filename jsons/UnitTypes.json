@@ -40,8 +40,7 @@
 	{
 		"name": "Office Fixer",
 		"movementType": "Air"
-		"uniques": ["[+900]% Strength",
-					"Uncapturable",
+		"uniques": ["Uncapturable",
 			
 					"[+5]% production cost <starting from the [Ancient era]>",
 					"[+6]% production cost <starting from the [Classical era]>",
@@ -56,7 +55,7 @@
 	{
 		"name": "Association Fixer",
 		"movementType": "Air",
-		"uniques": ["[+1400]% Strength",
+		"uniques": ["[+50]% Strength",
 					"Uncapturable",
 			
 					"[+6]% production cost <starting from the [Ancient era]>",
