@@ -1,1 +1,53 @@
+[
 
+	//Misscellaneous
+
+	{
+		"name": "Fixer Status: Unemployed",
+		"column": 1,
+		"row": 11,
+		"unitTypes": ["Office Fixer", "Association Fixer"],
+		"uniques": ["Only available <for units with [Fixer Status: Employed]>",
+
+					"[This Unit] loses the [Dawn Office Fixer] promotion",
+					
+					"Comment [Allows player to change the unit's employment.]"],
+	},
+	{
+		"name": "Fixer Status: Employed",
+		"column": 2,
+		"row": 11,
+		"unitTypes": ["Office Fixer", "Association Fixer"],
+		"uniques": ["Unavailable",
+			
+					"Comment [Misc. promotion; Prevents multiple office or association employment on an individual.]"],
+	},
+
+	//Grades
+	
+	{
+		"name": "Graded Level: 9",
+		"column": 1,
+		"row": 9,
+		"unitTypes": ["Office Fixer", "Association Fixer"],
+		"uniques": ["Comment [Has different effects for different office fixers]"],
+	},
+
+	//Associations
+
+	//Offices
+	
+	{
+		"name": "Dawn Office Fixer",
+		"column": 1,
+		"row": 11,
+		"unitTypes": ["Office Fixer"],
+		"uniques": ["Unavailable <for units with [Fixer Status: Employed]>",
+
+					"[This Unit] loses the [Fixer Status: Unemployed] promotion",
+					"[This Unit] gains the [Fixer Status: Employed] promotion",
+					"[This Unit] gains the [Graded Level: 9] promotion",
+			
+					"[+50]% Strength <for units with [Graded Level: 9]>"],
+	},
+		
